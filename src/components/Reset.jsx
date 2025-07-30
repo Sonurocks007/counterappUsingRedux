@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { reset } from "../redux/CounterSlice";
+import { reset } from "../slices/CounterSlice";
 
 const Reset = () => {
   const dispatch = useDispatch();

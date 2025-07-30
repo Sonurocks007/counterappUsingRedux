@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { setValue } from "../redux/CounterSlice";
+import { setValue } from "../slices/CounterSlice";
 import { toast } from "react-toastify";
 
 const SetValue = () => {

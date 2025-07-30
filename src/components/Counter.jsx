@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { increment, decrement, reset, setValue } from "../redux/CounterSlice";
+import { increment, decrement, reset, setValue } from "../slices/CounterSlice";
 import { toast } from "react-toastify";
 import Increment from "./Increment";
 import Decrement from "./Decrement";
